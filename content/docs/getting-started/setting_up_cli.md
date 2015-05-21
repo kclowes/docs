@@ -35,5 +35,5 @@ chmod +x /usr/local/bin/wercker
 
 You can use the `wercker version` command to see if a new version of the
 CLI is available. See the [commands section](/docs/cli/commands.html) for more information.
-Some commands require docker to be installed/available, see 
+Some commands require Docker to be installed/available, see 
 [requirements](/docs/cli/requirements.html) for more information.

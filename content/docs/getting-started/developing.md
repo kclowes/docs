@@ -1,7 +1,7 @@
 ### Developing the app
 
 Now that we've setup our CLI we can start developing.  Our list of cities is a
-bit short, so why not add another in there?  Before we do that however, let's
+bit short, so why not add another one in there?  Before we do that however, let's
 take a closer look at the **wercker.yml** file included in your project
 folder.
 
@@ -97,8 +97,9 @@ pip install succeeded
 ```
 
 The IP displayed here could be different for you, as this tutorial was written
-using boot2docker. If you navigate to your.docker.host:5000/cities.json you should see the same output as before. That's not very exiting, so let's see our live
-reloading in action!
+using boot2docker. If you navigate to [DOCKER_HOST_IP]:5000/cities.json you
+should see the same output as before. That's not very exciting, so let's see
+our live reloading in action!
 
 In **app.py** add a new city to the array
 
